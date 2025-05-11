@@ -1,0 +1,270 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime hospital</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,200;1,400;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      :focus {
+        outline: none;
+      }
+      
+      * {
+        outline: none;
+      }
+    </style>
+</head>
+<body>
+<section class="header">
+         <nav>
+             <a href="index.html"><img src="images/logohospital.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Doctors.html">DOCTORS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                     <li><a href="registrationform.html">APPOINTMENT BOOKING</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="ShowMenu()"></i>
+         </nav>
+    
+<div class="text-box">
+    <h1>Your Path to Wellness Begins Here</h1>
+    <p>Where Expert Care Meets Compassionate Healing.</p>
+    <a href="" class="hero-btn" id="hero-btn">For The Healthy Future.
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    
+    
+</div>   
+<script>
+    let hero-btn = document.getElementById("hero-btn");
+    let spans = document.getElementsByTagName("span");
+    hero-btn.onclick = function(){
+        for(span of spans){
+            span.classList.add("anim");
+        }
+        setTimeout(function(){
+            for(span of spans){
+            span.classList.remove("anim");
+        }
+        },500)
+    }
+</script>    
+</section>
+    
+<!----------COURSE--------> 
+    
+<section class="Doctors">
+    <h1>Our Highly Skilled Doctors</h1>
+    <p>At our hospital, we are proud to have a team of highly skilled and dedicated doctors who are committed to providing the best possible care to our patients. Our doctors have years of experience and training in their respective fields, and have demonstrated a commitment to ongoing education and professional development. They use the latest technologies and techniques to diagnose and treat a wide range of medical conditions, and they always put the needs of their patients first. We believe that by offering the expertise of our highly skilled doctors, we can help ensure that our patients receive the highest quality medical care available.</p>
+    
+    <div class="row">
+        <div class="Doctors-col">
+            <h3>Intermediate</h3>
+            <p>"Our hospital offers a wide range of surgical services, including both routine and complex procedures. Our highly skilled surgical team is equipped with the latest technology and techniques, allowing us to provide safe and effective surgeries with the best possible outcomes.</p>
+        </div>
+        <div class="Doctors-col">
+            <h3>Medical Treatments</h3>
+            <p>At our hospital, we are proud to have a team of highly skilled and dedicated doctors who are committed to providing the best possible care to our patients. Our doctors have years of experience and training in their respective fields, and have demonstrated a commitment to ongoing education and professional development. </p>
+        </div>
+        <div class="Doctors-col">
+            <h3>Surgery</h3>
+            <p>Our hospital offers a wide range of surgical services, including both routine and complex procedures. Our highly skilled surgical team is equipped with the latest technology and techniques, allowing us to provide safe and effective surgeries with the best possible outcomes.</p>
+        </div>
+        
+    </div>
+    
+</section>
+
+ <!-------hospital-------> 
+
+<section class="campus">
+    <h1>Our Hospital</h1>
+    <p>Physicians should be personable, great listeners, and empathetic to the concerns.</p>
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/pexels-wendy-wei-2959588.jpg"> 
+            <div class="layer">
+                <h3>24*7 EMERGENCY SERVICE</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/pexels-daan-stevens-939325.jpg"> 
+            <div class="layer">
+                <h3>ICU</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/pexels-vh-s-2440844.jpg"> 
+            <div class="layer">
+                <h3>OUT WARDS</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+    
+<!---------Facilities-------->    
+    
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>State-of-the-Art Medical Facilities for Exceptional Patient Care</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/Ambulance.jpg">
+            <h3>Quick Ambulance Facilities</h3>
+            <p>Within 10minutes of phone call , we reach you as fast as possible.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/hospital%20bed.jpg">
+            <h3>Bed facility</h3>
+            <p>We have more tham sufficient beds available for patients</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/medical%20facilites.jpg">
+            <h3>Advanced Techonology</h3>
+            <p>We use advanced techonology to treat patients and cure them as soon as possible.</p>
+        </div>
+    </div>
+    
+</section>
+    
+<!--------testimonials------>    
+
+<section class="testimonials">
+    <h1>Customer Review</h1>
+    <p>Here are some of our Honest Customers Reviews</p>
+    
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/tanjiro1.jpg">
+            <div>
+                <p>"I recently had an operation at this hospital and I can't say enough about the level of care I received. From the moment I walked through the doors, I was greeted with warmth and professionalism. The medical staff was knowledgeable, patient, and always made sure I was comfortable. The facilities were top-notch and clean, and the technology used in my procedure was cutting-edge. I was especially impressed with the follow-up care I received after my operation, with regular check-ins to make sure I was healing properly. I would highly recommend this hospital to anyone in need of medical care.</p>
+                <h3>Tanjiro Kamado</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/tanjiro3.jpg">
+            <div>
+                <p>I have been a patient at this hospital for several years and I have nothing but positive things to say about my experiences. The doctors and medical staff are some of the most compassionate and knowledgeable professionals I have ever encountered. They take the time to listen to my concerns and provide comprehensive treatment plans tailored to my needs. The facilities are always clean and well-maintained, and the equipment used is state-of-the-art. I feel confident that I am receiving the best possible care when I visit this hospital. I would highly recommend it to anyone in need of medical services.</p>
+                <h3>Kakashi</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+ 
+     
+</section>   
+    
+    
+    
+<!--------Call to Function------>
+    
+    
+<section class="cta">
+    <h1>Enroll for variours queries<br>anywehere from the world</h1>
+    
+<a><button onclick="location.href='contact.html'">Contact Us</button></a>
+
+
+
+
+</section>
+    
+  
+<!--------footer------>   
+ 
+    
+<section class="footer">
+    <h2>About Us</h2>
+    <p>Our hospital is dedicated to providing the highest quality medical care to our patients. With a team of highly skilled and compassionate healthcare professionals, state-of-the-art facilities, and a commitment to using the latest medical technologies, we strive to make a positive impact in the lives of those we serve. From routine check-ups to complex surgeries, we offer a full range of medical services designed to meet the unique needs of each patient. We believe in a patient-centered approach to care, and we are committed to ensuring that each of our patients receives the attention, support, and resources they need to achieve optimal health. Thank you for considering us for your medical needs.</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/roaming_rival/">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i> 
+        <i class="fa fa-facebook"></i>
+</a>
+
+    </div>
+    <p>Made by SUHAIB</p>
+</section>   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+<!----JavaScript for toggle menu---->  
+<script>
+    
+    var navlinks = document.getElementById("navLinks");
+    
+    function ShowMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+    
+</script>    
+
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+

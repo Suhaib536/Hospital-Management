@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,200;1,400;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointement Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    
+    <section class="sub-header">   
+         <nav>            
+             <a href="index.html"><img src="images/logohospital.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Doctors.html">DOCTORS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                     <li><a href="registrationform.html">APPOINTMENT BOOKING</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="ShowMenu()"></i>
+         </nav>
+         <h1>Appointment Form</h1>
+</section>
+      <!--main page start ++-->
+    <div class="bf-container">
+        
+    <!--form body start ++-->
+     <div class="bf-body">
+         
+         
+        <!--form head++-->
+     <div class="bf-head">
+         <h1>Book An Appointment</h1>
+         <p>lets start booking now.</p>
+     </div>
+        <!--form head ++-->
+         
+         
+
+         
+         <!--form body box  ++-->  
+         <form action="https://formsubmit.co/oothispc464@gmail.com" method="POST">
+            
+             <div class="bf-row">
+                 
+                <div class="bf-col-6">
+                     <p>Your Name</p>
+                     <input type="text" name="Fullname" id="Fullname" placeholder="Enter your name">
+                    <p>Email Address</p>
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                 </div>
+                 
+                 <div class="bf-row">
+                 
+                <div class="bf-col-6">
+                     <p>Select Date</p>
+                     <input type="date" name="date" id="Date">
+                     </div>
+                    <div class="bf-col-6">
+                    <p>Select Number</p>
+                     <select name="s-select">
+                         <option>Select Number</option>
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                        </select>
+                 </div>
+                     
+                     
+            </div>
+                 
+                 <div class="bf-row">
+                 
+                <div class="bf-col-12">
+                     <p>Messege</p> 
+                    <textarea name="Messege" id="Messege" cols="10" rows="2"></textarea>
+
+                 </div>
+                  
+                  <div class="bf-col-3">
+                  <input type="submit" value="Submit">
+                 </div>   
+                      </form>
+        <!--form body box end ++--> 
+                 
+        <!--this is for footer ++--> 
+                 <div class="bf-footer">
+                     <p>Designed by <a href="#">SUHAIB</a></p>
+                 </div>      
+        <!--this is for footer end ++-->
+         
+         
+     </div>    
+     <!--form body end++-->
+    
+
+    </div>
+      <!--main page end ++-->
+ <!------fotter-------> 
+ 
+    
+<section class="footer">
+    <div class="icons">
+        <a href="https://www.instagram.com/roaming_rival/">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+             <i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by SUHAIB</p>
+</section>   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+<!----JavaScript for toggle menu---->  
+<script>
+    
+    var navlinks = document.getElementById("navLinks");
+    
+    function ShowMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+    
+</script>    
+
+    
+            
+</body>
+</html>
